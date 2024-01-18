@@ -16,6 +16,7 @@ body {
 }
 
 
+
 header {
     background-color: #000;
     color: white;
@@ -23,3 +24,24 @@ header {
    
 }
 /*Primero modificacion hasta Header*/
+
+
+
+/*Anadido nav, section y footer*/
+nav {
+    background-color: #444;
+    grid-area: zn;
+   
+}
+section {
+    background-color: #ddd;
+    grid-area: zs;
+   
+}
+footer {
+    background-color: black;
+    color: yellow;
+    grid-area: zf;
+    
+}
+
