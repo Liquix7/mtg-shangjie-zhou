@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40px 1fr 50px;
+    grid-template-columns: 25% 1fr;
+    grid-template-areas: 
+    "zh zh" "zn zs" "zf zf"  
+   ;
+}
+
+
+header {
+    background-color: #000;
+    color: white;
+    grid-area: zh;
+   
+}
+/*Primero modificacion hasta Header*/
